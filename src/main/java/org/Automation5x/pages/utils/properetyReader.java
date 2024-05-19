@@ -6,6 +6,7 @@ import java.util.Properties;
 
 public class properetyReader {
 
+
     public properetyReader() {
 
     }
@@ -15,7 +16,8 @@ public class properetyReader {
         FileInputStream fileInputStream = null ;
         Properties p = null;
         try {
-            fileInputStream = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\resources\\data.properties");
+
+            fileInputStream = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\resources\\testLoginPage_Postive.properties");
       p = new Properties();
       p.load(fileInputStream);
 

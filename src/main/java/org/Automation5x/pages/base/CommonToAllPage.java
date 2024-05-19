@@ -1,7 +1,8 @@
 package org.Automation5x.pages.base;
 
 import com.google.j2objc.annotations.Property;
-import org.Automation5x.pages.driver.DriverManager;
+//import org.Automation5x.pages.driver.DriverManager;
+import org.Automation5x.pages.driver.DriverManagerTL;
 import org.Automation5x.pages.utils.properetyReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -20,30 +21,38 @@ public class CommonToAllPage {
     }
     public void OpenVWOLoginURL(){
 
-        DriverManager.driver.get(properetyReader.readkey("url"));
+        DriverManagerTL.driver.get(properetyReader.readkey("url"));
     }
 
     public void clickElement(By by) {
-        DriverManager.driver.findElement(by).click();
+        DriverManagerTL.driver.findElement(by).click();
+
+    }
+    public void clickElement(WebElement by) {
+        by.click();
 
     }
 
     public void enterInput(By by, String key) {
-        DriverManager.driver.findElement(by).sendKeys(key);
+        DriverManagerTL.driver.findElement(by).sendKeys(key);
+
+    }
+    public void enterInput(WebElement element ,String key){
+        element.sendKeys(key);
 
     }
 
     // Wait Explicits here
 
     public WebElement presenceOfElement(By elementLocation) {
-        return new WebDriverWait(DriverManager.driver, Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
+        return new WebDriverWait(DriverManagerTL.driver, Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
     }
 
     public WebElement visibleOfElement(By elementLocation) {
-        return new WebDriverWait(DriverManager.driver, Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
+        return new WebDriverWait(DriverManagerTL.driver, Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
     }
     public WebElement getElement(By key) {
-        return (DriverManager.driver.findElement(key));
+        return (DriverManagerTL.driver.findElement(key));
     }
 
 

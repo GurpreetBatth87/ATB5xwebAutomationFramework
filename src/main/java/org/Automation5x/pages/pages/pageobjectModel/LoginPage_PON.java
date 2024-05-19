@@ -38,8 +38,7 @@ public class LoginPage_PON extends CommonToAllPage {
         enterInput(username, properetyReader.readkey("username"));
         enterInput(password,properetyReader.readkey("password"));
         clickElement(loginButton);
-        presenceOfElement(errormsg);
-        visibleOfElement(errormsg);
+
 
         Thread.sleep(10000);
         return getElement(errormsg).getText();

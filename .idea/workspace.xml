@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bf53dd8-804d-4d5e-9a61-765c7bdcc943" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/base/CommonToAllPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/pages/pageobjectModel/DashboardPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/pages/pageobjectModel/LoginPage_PON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/utils/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/utils/TextReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/utils/properetyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Testdata.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/pagesbasetest/CommonToAllTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/test/TestVWOlogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/test/TestVWOlogin_POMBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-smoke.xml" afterDir="false" />
+    <list default="true" id="7bf53dd8-804d-4d5e-9a61-765c7bdcc943" name="Changes" comment="webAutomatyion Freamwork">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/driver/DriverManagerTL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/pages/pageFactory/LoginPage_PF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testLoginPage_Postive.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/base/CommonToAllPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/pages/pageobjectModel/LoginPage_PON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/pages/pageobjectModel/LoginPage_PON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/utils/properetyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/pages/utils/properetyReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +45,22 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gurpr/IdeaProjects/ATB5xwebAutomationFramework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gurpr/IdeaProjects/ATB5xwebAutomationFramework/src/main/resources&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gurpr\IdeaProjects\ATB5xwebAutomationFramework\src\main\resources" />
       <recent name="C:\Users\gurpr\IdeaProjects\ATB5xwebAutomationFramework" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.Automation5x.pages.driver" />
+      <recent name="org.Automation5x.pages.pages.pageFactory" />
       <recent name="org.Automation5x.pages.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestVWOlogin_POMBaseTest">
+  <component name="RunManager" selected="TestNG.TestVWOlogin_POMBaseTest.testLoginPage_Postive">
     <configuration name="C:/Users/gurpr/IdeaProjects/ATB5xwebAutomationFramework/testng-smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xwebAutomationFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-smoke.xml" />
@@ -116,6 +106,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestVWOlogin_POMBaseTest.testLoginPage_Postive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB5xwebAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Automation5x.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Automation5x.test" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.test.TestVWOlogin_POMBaseTest" />
+      <option name="METHOD_NAME" value="testLoginPage_Postive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestVWOlogin_POM.testLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xwebAutomationFramework" />
       <extension name="coverage">
@@ -134,31 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOlogin.testLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB5xwebAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Automation5x.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.test" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.test.TestVWOlogin" />
-      <option name="METHOD_NAME" value="testLoginPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestVWOlogin_POMBaseTest" />
+        <item itemvalue="TestNG.TestVWOlogin_POMBaseTest.testLoginPage_Postive" />
         <item itemvalue="TestNG.TestVWOlogin_POMBaseTest.testLoginPage" />
+        <item itemvalue="TestNG.TestVWOlogin_POMBaseTest" />
         <item itemvalue="TestNG.C:/Users/gurpr/IdeaProjects/ATB5xwebAutomationFramework/testng-smoke.xml" />
         <item itemvalue="TestNG.TestVWOlogin_POM.testLoginPage" />
-        <item itemvalue="TestNG.TestVWOlogin.testLoginPage" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +161,20 @@
       <option name="presentableId" value="Default" />
       <updated>1712560072848</updated>
     </task>
+    <task id="LOCAL-00001" summary="webAutomatyion Freamwork">
+      <option name="closed" value="true" />
+      <created>1713074585315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713074585315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="webAutomatyion Freamwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="webAutomatyion Freamwork" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
